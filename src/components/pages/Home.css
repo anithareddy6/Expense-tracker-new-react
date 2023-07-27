@@ -1,0 +1,19 @@
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #dcfce7;
+    padding: 1rem;
+    color: #064e3b;
+    padding: 2rem;
+    border-bottom: 3px dotted #064e3b;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    align-items: center;
+    font-weight: bold;
+}
+.home-container div:nth-child(1) {
+    font-size: 2rem;
+    font-style: italic;
+   
+}

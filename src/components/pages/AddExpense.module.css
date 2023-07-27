@@ -1,0 +1,40 @@
+.formContainer{
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin: 3rem auto;
+    color: #064e3b;
+    padding: 1rem;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    background-color: #ffff;
+}
+.formContainer h1{
+    text-align: center;
+}
+.addExpense {
+    display: flex;
+    justify-content: space-between;
+}
+.addExpense div{
+    width: 48%;
+}
+.addExpense input,textarea,select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+    border: 3px solid #86efac;
+}
+label{
+    font-weight: bolder;
+}
+button{
+    width: 100%;
+}
+@media only screen and (max-width: 900px) {
+    .formContainer{
+     width: 90%;
+     margin: 2rem auto;
+    }
+   }
